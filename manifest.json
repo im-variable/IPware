@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "IPware",
+    "version": "1.0",
+    "description": "Displays IP address information",
+    "author": "Sandeep Singn Negi",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/i.png",
+        "48": "icons/i.png",
+        "128": "icons/i.png"
+      }
+    },
+    "permissions": [
+        "activeTab",
+        "clipboardWrite"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
